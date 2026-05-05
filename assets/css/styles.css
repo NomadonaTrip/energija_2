@@ -1363,6 +1363,38 @@ section { position: relative; }
 }
 .footer__brand { display: flex; flex-direction: column; gap: 18px; max-width: 36ch; }
 .footer__brand .brand img { filter: brightness(0) invert(1); }
+
+/* Social row — outline glyphs, no box. Sits under the brand tagline
+   so it reads as part of the masthead, not as a tacked-on widget. */
+.footer__social {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.footer__social li { margin: 0; }
+.footer__social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px; height: 36px;     /* generous touch target without visible box */
+  margin: -8px 0;                /* trim outer flex gap so icons sit tight under tagline */
+  color: oklch(78% 0.010 30);
+  transition: color var(--d-fast) var(--ease-soft),
+              transform var(--d-fast) var(--ease-soft);
+}
+.footer__social a:hover {
+  color: var(--red-soft);
+  transform: translateY(-1px);
+}
+.footer__social a:focus-visible {
+  outline: 2px solid var(--red-soft);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+.footer__social svg { width: 18px; height: 18px; display: block; }
 .footer__col h6 {
   font-family: var(--font-narrow);
   font-size: 0.7rem;
