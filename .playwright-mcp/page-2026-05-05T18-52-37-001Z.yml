@@ -1,0 +1,391 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link "Energija — home" [ref=e4] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=e5]: ENERGIJA
+    - navigation "Primary" [ref=e6]:
+      - link "About" [ref=e7] [cursor=pointer]:
+        - /url: "#about"
+      - link "Services" [ref=e8] [cursor=pointer]:
+        - /url: "#services"
+      - link "Process" [ref=e9] [cursor=pointer]:
+        - /url: "#process"
+      - link "Supply Chain" [ref=e10] [cursor=pointer]:
+        - /url: "#partners"
+      - link "FAQ" [ref=e11] [cursor=pointer]:
+        - /url: "#faq"
+    - link "Request a Quote" [ref=e12] [cursor=pointer]:
+      - /url: "#cta"
+      - text: Request a Quote
+      - generic [ref=e13]: ↗
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e20]: "[ Intelligent Energy Solutions · Lagos, Nigeria ]"
+          - heading "Smarter lighting, lower costs." [level=1] [ref=e21]:
+            - text: Smarter lighting,
+            - text: lower costs.
+          - paragraph [ref=e22]: We help construction, real estate, and facility management professionals reduce operational costs through advanced energy-saving lighting control systems — sourced from world-class European manufacturers, deployed and supported nationwide.
+          - generic [ref=e23]:
+            - link "Request a Quote" [ref=e24] [cursor=pointer]:
+              - /url: "#cta"
+              - text: Request a Quote
+              - generic [ref=e25]: ↗
+            - link "Explore Services" [ref=e26] [cursor=pointer]:
+              - /url: "#services"
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e31]: "[ Live · Network Telemetry ]"
+            - generic [ref=e32]:
+              - generic [ref=e33]: "55"
+              - generic [ref=e34]: kWh
+              - generic [ref=e35]: Saved across 18 sites · last 24h
+          - generic [ref=e36]:
+            - generic "A man enters a modern office; presence-detection lighting responds to his movement and the door." [ref=e37]
+            - generic [ref=e38]:
+              - generic [ref=e39]: Lagos Office Pilot
+              - generic [ref=e40]: 7%
+              - generic [ref=e41]: Verified energy reduction
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: Founded
+          - generic [ref=e46]: 2018 · Lagos, NG
+        - generic [ref=e47]:
+          - generic [ref=e48]: Service Coverage
+          - generic [ref=e49]: Nationwide · 24/7
+        - generic [ref=e50]:
+          - generic [ref=e51]: Sectors
+          - generic [ref=e52]: Commercial · FM · Real Estate
+        - generic [ref=e53]:
+          - generic [ref=e54]: Partners
+          - generic [ref=e55]: 8 European OEMs
+      - generic [ref=e57]:
+        - generic [ref=e58]: Energy Efficiency
+        - generic [ref=e60]: Smart Lighting Control
+        - generic [ref=e62]: LED Retrofits
+        - generic [ref=e64]: Motion-Sensor Automation
+        - generic [ref=e66]: Daylight Integration
+        - generic [ref=e68]: 40% Energy Reduction
+        - generic [ref=e70]: Nationwide Support
+        - generic [ref=e72]: Energy Efficiency
+        - generic [ref=e74]: Smart Lighting Control
+        - generic [ref=e76]: LED Retrofits
+        - generic [ref=e78]: Motion-Sensor Automation
+        - generic [ref=e80]: Daylight Integration
+        - generic [ref=e82]: 40% Energy Reduction
+        - generic [ref=e84]: Nationwide Support
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - generic [ref=e90]: 01 / Avg.
+        - generic [ref=e91]:
+          - generic [ref=e92]: "0"
+          - generic [ref=e93]: "%"
+        - generic [ref=e94]: Energy reduction
+      - generic [ref=e95]:
+        - generic [ref=e96]: 02 / Range
+        - generic [ref=e97]:
+          - generic [ref=e98]: "0"
+          - text: –
+          - generic [ref=e99]: "0"
+        - generic [ref=e100]: Months to ROI
+      - generic [ref=e101]:
+        - generic [ref=e102]: 03 / Peak
+        - generic [ref=e103]:
+          - generic [ref=e104]: "0"
+          - generic [ref=e105]: "%"
+        - generic [ref=e106]: Lower consumption
+      - generic [ref=e107]:
+        - generic [ref=e108]: 04 / SLA
+        - generic [ref=e109]:
+          - text: "24"
+          - generic [ref=e110]: /7
+        - generic [ref=e111]: Support coverage
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - generic [ref=e116]: "[ About ]"
+          - heading "Powering Nigeria's businesses with intelligent energy." [level=2] [ref=e117]
+        - generic [ref=e120]: Cleantech Supply Chain · est. 2018
+      - generic [ref=e121]:
+        - paragraph [ref=e123]: Energija is a cleantech supply chain operator. We source intelligent lighting hardware from premium European manufacturers, then design, install, and maintain it across Nigerian commercial and industrial sites — turning energy waste into a measurable operating advantage.
+        - generic [ref=e124]:
+          - paragraph [ref=e125]: Most commercial spaces still rely on manual lighting control — switching off by hand, inconsistent schedules, or guesswork energy rationing. The result is wasted power, unpredictable bills, and declining profitability.
+          - paragraph [ref=e126]: Our technical expertise and deep knowledge of Nigeria's energy infrastructure set us apart from one-size-fits-all alternatives. We offer flexible pricing, a wide product range from motion-sensor controls to complete LED retrofits, and responsive nationwide support.
+          - link "Our approach" [ref=e127] [cursor=pointer]:
+            - /url: "#services"
+            - text: Our approach
+            - generic [ref=e128]: →
+    - generic [ref=e130]:
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - generic [ref=e133]: "[ Services ]"
+          - heading "Smart, scalable lighting solutions." [level=2] [ref=e134]
+        - paragraph [ref=e137]: Three integrated practices — controls, fixtures, and lifecycle support — delivered as one supply chain.
+      - generic [ref=e138]:
+        - article [ref=e139]:
+          - generic [ref=e140]:
+            - generic [ref=e141]: SERVICE 01
+            - img "Smart lighting control panel and motion sensor in a commercial corridor" [ref=e142]
+          - generic [ref=e143]:
+            - heading "Smart Lighting Control" [level=3] [ref=e144]
+            - paragraph [ref=e145]: Intelligent automation with motion sensors, daylight integration, and programmable scheduling — calibrated to your building's occupancy patterns.
+            - generic [ref=e146]:
+              - generic [ref=e147]: ↓
+              - text: Up to 40% energy reduction
+        - article [ref=e148]:
+          - generic [ref=e149]:
+            - generic [ref=e150]: SERVICE 02
+            - img "Transformative LED lighting installed at a client commercial site" [ref=e151]
+          - generic [ref=e152]:
+            - heading "LED Retrofit Solutions" [level=3] [ref=e153]
+            - paragraph [ref=e154]: High-efficiency fixtures from European OEMs — superior brightness, longer lifespan, and up to 75% lower energy consumption than legacy systems.
+            - generic [ref=e155]:
+              - generic [ref=e156]: →
+              - text: Immediate cost savings
+        - article [ref=e157]:
+          - generic [ref=e158]:
+            - generic [ref=e159]: SERVICE 03
+            - img "Energija engineer installing smart lighting fixtures" [ref=e160]
+          - generic [ref=e161]:
+            - heading "Installation & Support" [level=3] [ref=e162]
+            - paragraph [ref=e163]: Professional installation, regular maintenance, and dedicated technical support nationwide — backed by a 24/7 service-level agreement.
+            - generic [ref=e164]:
+              - generic [ref=e165]: ✓
+              - text: Long-term reliability
+    - generic [ref=e167]:
+      - generic [ref=e168]:
+        - generic [ref=e169]:
+          - generic [ref=e170]: "[ How It Works ]"
+          - heading "From audit to live system in four moves." [level=2] [ref=e171]
+        - generic [ref=e174]: Engagement Sequence
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - text: "01"
+            - generic [ref=e178]: —Audit
+          - heading "Energy Audit" [level=4] [ref=e179]
+          - paragraph [ref=e180]: We meter your existing lighting load, occupancy patterns, and tariff exposure on-site.
+        - generic [ref=e181]:
+          - generic [ref=e182]:
+            - text: "02"
+            - generic [ref=e183]: —Design
+          - heading "System Design" [level=4] [ref=e184]
+          - paragraph [ref=e185]: We engineer a fixture and controls package matched to your building, with projected ROI.
+        - generic [ref=e186]:
+          - generic [ref=e187]:
+            - text: "03"
+            - generic [ref=e188]: —Install
+          - heading "Supply & Install" [level=4] [ref=e189]
+          - paragraph [ref=e190]: European-sourced hardware, certified Energija crews, deployed with minimal operational disruption.
+        - generic [ref=e191]:
+          - generic [ref=e192]:
+            - text: "04"
+            - generic [ref=e193]: —Sustain
+          - heading "Lifecycle Support" [level=4] [ref=e194]
+          - paragraph [ref=e195]: 24/7 nationwide monitoring, maintenance, and incremental optimisation as your needs evolve.
+    - generic [ref=e197]:
+      - generic [ref=e198]:
+        - generic [ref=e199]:
+          - generic [ref=e200]: "[ Why Energija ]"
+          - heading "Built for Nigeria's actual grid, not a brochure." [level=2] [ref=e201]
+        - paragraph [ref=e204]: Stop paying for energy you don't even use. Most commercial spaces still rely on manual lighting control — wasted power, unpredictable bills, declining profitability.
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - generic [ref=e207]: Local Engineering
+          - heading "Engineers who understand a tripped feeder, a generator handover, and a 3-phase imbalance — because they live with them." [level=4] [ref=e208]
+          - paragraph [ref=e209]: Every site we deploy is conditioned by Nigeria's grid behaviour. We design for the load you have, not the load a vendor brochure assumes.
+        - generic [ref=e210]:
+          - generic [ref=e211]: Global Supply Chain
+          - heading "Direct relationships with eight premium world class OEMs." [level=4] [ref=e212]
+          - paragraph [ref=e213]: Authentic stock, full warranties, and parts continuity — not the grey-market roulette that wastes years of capital expenditure.
+        - generic [ref=e214]:
+          - generic [ref=e215]: Measured outcome
+          - heading "Average client energy reduction" [level=4] [ref=e216]
+          - generic [ref=e217]: 40%
+        - generic [ref=e218]:
+          - generic [ref=e219]: Flexible commercials
+          - heading "Capex, financed, or performance-share — pick the model that fits." [level=4] [ref=e220]
+          - paragraph [ref=e221]: From motion-sensor controls to complete LED retrofits, our pricing models adapt to your treasury, not the other way around.
+    - generic [ref=e223]:
+      - paragraph [ref=e224]:
+        - emphasis [ref=e225]: “Energy waste is silent.
+        - text: Our work is to make it visible — then make it stop.”
+      - generic [ref=e226]:
+        - strong [ref=e228]: Energija Integrated Systems
+        - generic [ref=e229]: · Founding Mission · Lagos, 2018
+    - generic [ref=e230]:
+      - generic [ref=e231]:
+        - text: Trusted by leading organisations
+        - heading "We've helped businesses across Nigeria achieve measurable energy savings." [level=3] [ref=e232]
+      - generic "Selected clients" [ref=e233]:
+        - generic [ref=e234]:
+          - img "This Present House" [ref=e236]
+          - img "Dawson Nigeria Limited" [ref=e238]
+          - img "DBH Consulting" [ref=e240]
+          - img "ETCO Electricals" [ref=e242]
+          - img "JT Electricals" [ref=e244]
+          - img "Leadway Assurance" [ref=e246]
+    - generic [ref=e254]:
+      - generic [ref=e255]:
+        - generic [ref=e256]:
+          - generic [ref=e257]: "[ Supply Chain ]"
+          - heading "A premium supply chain — direct from manufacturer." [level=2] [ref=e258]
+        - paragraph [ref=e261]: Eight industry-leading manufacturers. Authentic stock. Full warranty continuity. No grey market.
+      - generic [ref=e262]:
+        - generic [ref=e263]:
+          - img "CP Electronics" [ref=e264]
+          - text: CP Electronics
+        - generic [ref=e265]:
+          - img "Legrand" [ref=e266]
+          - text: Legrand
+        - generic [ref=e267]:
+          - img "British General" [ref=e268]
+          - text: British General
+        - generic [ref=e269]:
+          - img "Interra" [ref=e270]
+          - text: Interra
+        - generic [ref=e271]:
+          - img "Astro Lighting" [ref=e272]
+          - text: Astro Lighting
+        - generic [ref=e273]:
+          - img "Masterplug" [ref=e274]
+          - text: Masterplug
+        - generic [ref=e275]:
+          - img "Luceco" [ref=e276]
+          - text: Luceco
+        - generic [ref=e277]:
+          - img "Kingfisher Lighting" [ref=e278]
+          - text: Kingfisher Lighting
+    - generic [ref=e280]:
+      - generic [ref=e281]:
+        - generic [ref=e282]:
+          - generic [ref=e283]: "[ In the Field ]"
+          - heading "Live deployments, measured results." [level=2] [ref=e284]
+        - generic [ref=e287]: Selected sites · 2023–2025
+      - generic [ref=e288]:
+        - generic [ref=e289]:
+          - img "Lagos skyline at night, illuminated commercial buildings" [ref=e290]
+          - generic [ref=e291]: Lagos · Commercial District
+        - generic [ref=e292]:
+          - img "Transformative interior lighting at a client banking site" [ref=e293]
+          - generic [ref=e294]: Banking · Pilot Site
+        - generic [ref=e295]:
+          - img "Smart lighting control hardware" [ref=e296]
+          - generic [ref=e297]: Controls · Field Hardware
+        - generic [ref=e298]:
+          - img "Engineer installing fixture on a ceiling" [ref=e299]
+          - generic [ref=e300]: Install · FM Crew
+    - generic [ref=e302]:
+      - generic [ref=e304]:
+        - generic [ref=e305]: "[ FAQ ]"
+        - heading "Frequently asked." [level=2] [ref=e306]
+      - generic [ref=e307]:
+        - generic [ref=e308]:
+          - button "01 How quickly can I expect a return on a lighting upgrade?" [expanded] [ref=e309] [cursor=pointer]:
+            - generic [ref=e310]: "01"
+            - generic [ref=e311]: How quickly can I expect a return on a lighting upgrade?
+          - paragraph [ref=e315]: For most commercial sites we engage with, projected payback falls between 12 and 18 months — driven by reduced consumption, lower demand charges, and extended fixture lifecycles. Every quote we issue includes the underlying calculation so you can verify it independently.
+        - generic [ref=e316]:
+          - button "02 Do you only work with new builds, or can you retrofit existing buildings?" [ref=e317] [cursor=pointer]:
+            - generic [ref=e318]: "02"
+            - generic [ref=e319]: Do you only work with new builds, or can you retrofit existing buildings?
+          - paragraph [ref=e321]: Both. The majority of our portfolio is retrofit work in operational sites — offices, banks, hospitality, and warehousing — where we sequence the install to avoid disrupting trading hours.
+        - generic [ref=e322]:
+          - button "03 Where is your hardware sourced from?" [ref=e323] [cursor=pointer]:
+            - generic [ref=e324]: "03"
+            - generic [ref=e325]: Where is your hardware sourced from?
+          - paragraph [ref=e327]: Direct from eight European OEMs including CP Electronics, Legrand, British General, Interra, Astro Lighting, Masterplug, Luceco, and Kingfisher Lighting. Authentic stock and full manufacturer warranties — never grey market.
+        - generic [ref=e328]:
+          - button "04 What does ongoing support look like?" [ref=e329] [cursor=pointer]:
+            - generic [ref=e330]: "04"
+            - generic [ref=e331]: What does ongoing support look like?
+          - paragraph [ref=e333]: Every install is wrapped in a 24/7 nationwide service agreement. We monitor the system, respond to incidents, replace parts under warranty, and revisit optimisation as your occupancy patterns evolve.
+        - generic [ref=e334]:
+          - button "05 Do you offer financing or performance-share commercial models?" [ref=e335] [cursor=pointer]:
+            - generic [ref=e336]: "05"
+            - generic [ref=e337]: Do you offer financing or performance-share commercial models?
+          - paragraph [ref=e339]: Yes — alongside conventional capex purchase, we structure financed and performance-share arrangements where appropriate. The right model is the one that fits your treasury position and the risk profile of the site.
+    - generic [ref=e341]:
+      - heading "Ready to cut energy costs?" [level=2] [ref=e342]
+      - generic [ref=e343]:
+        - paragraph [ref=e344]: Let's help you take control of your energy consumption. Our team will assess your lighting setup and recommend the most cost-effective solution.
+        - list [ref=e345]:
+          - listitem [ref=e346]:
+            - generic [ref=e347]: Address
+            - generic [ref=e348]:
+              - text: 14b, Wole Ariyo, Off Admiralty Way,
+              - text: Lekki Phase-1, Lagos — Nigeria.
+          - listitem [ref=e349]:
+            - generic [ref=e350]: Telephone
+            - generic [ref=e351]:
+              - link "+234 803 429 4817" [ref=e352] [cursor=pointer]:
+                - /url: tel:+2348034294817
+              - text: ·
+              - link "+234 806 668 8438" [ref=e353] [cursor=pointer]:
+                - /url: tel:+2348066688438
+          - listitem [ref=e354]:
+            - generic [ref=e355]: Email
+            - link "info@energija.com.ng" [ref=e357] [cursor=pointer]:
+              - /url: mailto:info@energija.com.ng
+          - listitem [ref=e358]:
+            - generic [ref=e359]: Website
+            - link "www.energija.com.ng" [ref=e361] [cursor=pointer]:
+              - /url: https://www.energija.com.ng
+        - generic [ref=e362]:
+          - link "Request a Quote" [ref=e363] [cursor=pointer]:
+            - /url: mailto:info@energija.com.ng
+            - text: Request a Quote
+            - generic [ref=e364]: ↗
+          - link "Learn more" [ref=e365] [cursor=pointer]:
+            - /url: "#about"
+  - contentinfo [ref=e366]:
+    - generic [ref=e367]:
+      - generic [ref=e368]:
+        - generic [ref=e369]:
+          - link "ENERGIJA" [ref=e370] [cursor=pointer]:
+            - /url: "#top"
+            - generic [ref=e371]: ENERGIJA
+          - paragraph [ref=e372]: Powering Nigeria's businesses with intelligent energy solutions that reduce costs and drive sustainability.
+        - generic [ref=e373]:
+          - heading "Services" [level=6] [ref=e374]
+          - list [ref=e375]:
+            - listitem [ref=e376]:
+              - link "Smart lighting" [ref=e377] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e378]:
+              - link "LED solutions" [ref=e379] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e380]:
+              - link "Installation" [ref=e381] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e382]:
+              - link "Support" [ref=e383] [cursor=pointer]:
+                - /url: "#services"
+        - generic [ref=e384]:
+          - heading "Company" [level=6] [ref=e385]
+          - list [ref=e386]:
+            - listitem [ref=e387]:
+              - link "About" [ref=e388] [cursor=pointer]:
+                - /url: "#about"
+            - listitem [ref=e389]:
+              - link "Contact" [ref=e390] [cursor=pointer]:
+                - /url: "#cta"
+            - listitem [ref=e391]:
+              - link "Privacy" [ref=e392] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e393]:
+              - link "Terms" [ref=e394] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e395]:
+          - heading "Contact" [level=6] [ref=e396]
+          - list [ref=e397]:
+            - listitem [ref=e398]:
+              - text: Nigeria
+              - text: Nationwide service
+            - listitem [ref=e399]:
+              - link "info@energija.com.ng" [ref=e400] [cursor=pointer]:
+                - /url: mailto:info@energija.com.ng
+      - generic [ref=e401]:
+        - generic [ref=e402]: © 2026 Energija Integrated Systems
+        - generic [ref=e403]: ● Live · All rights reserved
