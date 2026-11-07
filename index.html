@@ -4,643 +4,369 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Energija — Smart Lighting & Energy Solutions</title>
-<meta name="description" content="Energija is Nigeria's premier cleantech supply chain for intelligent lighting. We help construction, real estate, and facility management professionals reduce operational costs through advanced energy-saving lighting control systems.">
+<meta name="description" content="Energija supplies, installs and supports energy-saving lighting controls and LED retrofits for commercial buildings across Nigeria. Clients cut lighting energy by 40% on average.">
 <link rel="icon" type="image/png" href="assets/img/energija_logo.png">
 
-<!-- Type -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Archivo:wght@400;500;600;700&family=Archivo+Narrow:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/styles.css?v=5">
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-<!-- Scroll progress + custom cursor -->
-<div class="progress" aria-hidden="true"><div class="progress__bar" id="progress"></div></div>
-<div class="cursor" id="cursor" aria-hidden="true"></div>
-
-<!-- ==================== HEADER ==================== -->
 <header class="header" id="header">
   <a href="#top" class="brand" aria-label="Energija — home">
-    <img src="assets/img/energija_logo.png" alt="">
-    <span>ENERGIJA</span>
+    <img src="assets/img/energija_logo.png" alt="" width="30" height="32">
+    <span>Energija</span>
   </a>
   <nav class="nav" aria-label="Primary">
     <a href="#about">About</a>
     <a href="#services">Services</a>
     <a href="#process">Process</a>
-    <a href="#partners">Supply Chain</a>
+    <a href="#partners">Supply chain</a>
     <a href="#faq">FAQ</a>
   </nav>
-  <a href="#cta" class="btn btn--ghost-light btn--sm" data-magnetic>
-    Request a Quote
-    <span class="arrow" aria-hidden="true">↗</span>
-  </a>
+  <a href="#cta" class="btn btn--red btn--sm">Request a quote</a>
 </header>
 
 <main id="top">
 
-<!-- ==================== HERO ==================== -->
+<!-- HERO -->
 <div class="hero-stage" id="hero-stage">
 <section class="hero" id="hero">
   <div class="wrap wrap--wide hero__inner">
     <div class="hero__copy">
-      <div class="hero__kicker">
-        <span class="dot" aria-hidden="true"></span>
-        <span class="bracket">Intelligent Energy Solutions · Lagos, Nigeria</span>
-      </div>
+      <h1 class="hero__title reveal">Lights that switch off when nobody’s there</h1>
 
-      <h1 class="hero__title reveal" style="--d:60ms">
-        Smarter lighting,<br>
-        <span class="accent">lower</span> costs.
-      </h1>
-
-      <p class="hero__sub reveal" style="--d:480ms">
-        We help construction, real estate, and facility management professionals
-        reduce operational costs through advanced energy-saving lighting control
-        systems — sourced from world-class European manufacturers, deployed and
-        supported nationwide.
+      <p class="hero__sub reveal" style="--d:60ms">
+        Presence and daylight controls, LED retrofits, and nationwide support for
+        commercial buildings in Nigeria. Our clients cut lighting energy by 40% on average.
       </p>
 
-      <div class="hero__ctas reveal" style="--d:600ms">
-        <a href="#cta" class="btn btn--red" data-magnetic>
-          Request a Quote
-          <span class="arrow" aria-hidden="true">↗</span>
-        </a>
-        <a href="#services" class="btn btn--ghost" data-magnetic>
-          Explore Services
-        </a>
+      <div class="hero__ctas reveal" style="--d:120ms">
+        <a href="#cta" class="btn btn--red">Request a quote</a>
+        <a href="#process" class="link">See how it works</a>
       </div>
     </div>
 
-    <div class="hero__right">
-      <div class="hero__ticker reveal" style="--d:200ms">
-        <div class="hero__ticker-row">
-          <span class="dot" aria-hidden="true"></span>
-          <span class="bracket">Live · Network Telemetry</span>
-        </div>
-        <div class="hero__ticker-num">
-          <span data-counter="312">0</span><span class="unit">kWh</span>
-          <span class="hero__ticker-sub">Saved across 18 sites · last 24h</span>
-        </div>
-      </div>
-      <div class="hero__media reveal" style="--d:320ms">
-        <video
-          class="hero__media-video"
-          src="assets/img/hero/presence_detection_hero_6s.mp4"
-          poster="assets/img/hero/presence_detection_hero_poster.jpg"
-          muted
-          loop
-          playsinline
-          webkit-playsinline
-          preload="auto"
-          aria-label="A man enters a modern office; presence-detection lighting responds to his movement and the door."
-        ></video>
-        <div class="hero__spec">
-          <span class="lbl">Lagos Office Pilot</span>
-          <span class="num"><span data-counter="42" data-suffix="%">0%</span></span>
-          <span class="lbl" style="color:oklch(70% 0.010 30)">Verified energy reduction</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Hero meta strip -->
-  <div class="wrap wrap--wide">
-    <div class="hero__meta reveal" style="--d:700ms">
-      <div>
-        <div class="label">Founded</div>
-        <div class="value">2018 · Lagos, NG</div>
-      </div>
-      <div>
-        <div class="label">Service Coverage</div>
-        <div class="value">Nationwide · 24/7</div>
-      </div>
-      <div>
-        <div class="label">Sectors</div>
-        <div class="value">Commercial · FM · Real Estate</div>
-      </div>
-      <div>
-        <div class="label">Partners</div>
-        <div class="value">8 European OEMs</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Scrolling marquee -->
-  <div class="marquee" aria-hidden="true">
-    <div class="marquee__track">
-      <span>Energy Efficiency <span class="star"></span></span>
-      <span>Smart Lighting Control <span class="star"></span></span>
-      <span>LED Retrofits <span class="star"></span></span>
-      <span>Motion-Sensor Automation <span class="star"></span></span>
-      <span>Daylight Integration <span class="star"></span></span>
-      <span>40% Energy Reduction <span class="star"></span></span>
-      <span>Nationwide Support <span class="star"></span></span>
-      <!-- duplicate for seamless loop -->
-      <span>Energy Efficiency <span class="star"></span></span>
-      <span>Smart Lighting Control <span class="star"></span></span>
-      <span>LED Retrofits <span class="star"></span></span>
-      <span>Motion-Sensor Automation <span class="star"></span></span>
-      <span>Daylight Integration <span class="star"></span></span>
-      <span>40% Energy Reduction <span class="star"></span></span>
-      <span>Nationwide Support <span class="star"></span></span>
+    <div class="hero__media reveal" style="--d:120ms">
+      <video
+        class="hero__media-video"
+        src="assets/img/hero/presence_detection_hero_6s.mp4"
+        poster="assets/img/hero/presence_detection_hero_poster.jpg"
+        muted
+        loop
+        playsinline
+        webkit-playsinline
+        preload="auto"
+        aria-label="A man enters a modern office; presence-detection lighting responds to his movement and the door."
+      ></video>
     </div>
   </div>
 </section>
 </div><!-- /.hero-stage -->
 
-<!-- ==================== STATS ==================== -->
-<section class="stats">
+<!-- STATS -->
+<section class="stats" aria-label="Results">
   <div class="wrap wrap--wide">
-    <div class="stats__grid">
+    <dl class="stats__grid">
       <div class="stats__item reveal">
-        <span class="tag">01 / Avg.</span>
-        <div class="num"><span data-counter="40" data-suffix="">0</span><span class="unit">%</span></div>
-        <div class="lbl">Energy reduction</div>
+        <dt>Average energy reduction</dt>
+        <dd class="num"><span data-counter="40">40</span><span class="unit">%</span></dd>
+      </div>
+      <div class="stats__item reveal" style="--d:40ms">
+        <dt>Months to payback</dt>
+        <dd class="num"><span data-counter="12">12</span>–<span data-counter="18">18</span></dd>
+      </div>
+      <div class="stats__item reveal" style="--d:80ms">
+        <dt>Less energy than legacy fixtures</dt>
+        <dd class="num"><small>up to</small><span data-counter="75">75</span><span class="unit">%</span></dd>
       </div>
       <div class="stats__item reveal" style="--d:120ms">
-        <span class="tag">02 / Range</span>
-        <div class="num"><span data-counter="12">0</span>–<span data-counter="18">0</span></div>
-        <div class="lbl">Months to ROI</div>
+        <dt>Support, nationwide</dt>
+        <dd class="num">24/7</dd>
       </div>
-      <div class="stats__item reveal" style="--d:240ms">
-        <span class="tag">03 / Peak</span>
-        <div class="num"><span data-counter="75" data-suffix="">0</span><span class="unit">%</span></div>
-        <div class="lbl">Lower consumption</div>
-      </div>
-      <div class="stats__item reveal" style="--d:360ms">
-        <span class="tag">04 / SLA</span>
-        <div class="num">24<span class="unit">/7</span></div>
-        <div class="lbl">Support coverage</div>
-      </div>
-    </div>
+    </dl>
   </div>
 </section>
 
-<!-- ==================== ABOUT ==================== -->
+<!-- ABOUT -->
 <section class="section-pad" id="about">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <div class="sec-head__title">
-        <span class="bracket">About</span>
-        <h2 style="margin-top:18px">
-          Powering Nigeria's businesses with <span style="color:var(--red)">intelligent</span> energy.
-        </h2>
-      </div>
-      <div class="sec-head__meta">
-        <div class="sec-head__rule"></div>
-        <span class="eyebrow eyebrow--mute">Cleantech Supply Chain · est. 2018</span>
-      </div>
-    </div>
-
-    <div class="about__grid">
-      <div class="about__lead reveal">
-        <p class="lead">
-          Energija is a cleantech supply chain operator. We source intelligent lighting
-          hardware from premium European manufacturers, then design, install, and
-          maintain it across Nigerian commercial and industrial sites — turning
-          energy waste into a measurable operating advantage.
-        </p>
-      </div>
-      <div class="about__copy reveal" style="--d:120ms">
-        <p>
-          Most commercial spaces still rely on manual lighting control — switching
-          off by hand, inconsistent schedules, or guesswork energy rationing. The
-          result is wasted power, unpredictable bills, and declining profitability.
-        </p>
-        <p>
-          Our technical expertise and deep knowledge of Nigeria's energy
-          infrastructure set us apart from one-size-fits-all alternatives. We offer
-          flexible pricing, a wide product range from motion-sensor controls to
-          complete LED retrofits, and responsive nationwide support.
-        </p>
-        <a href="#services" class="link-arrow">Our approach <span class="arrow" aria-hidden="true">→</span></a>
-      </div>
+  <div class="wrap about__grid">
+    <h2 class="reveal">Most Nigerian buildings pay to light empty rooms</h2>
+    <div class="about__copy reveal" style="--d:60ms">
+      <p class="lead">
+        Lights get switched off by hand, on inconsistent schedules, or not at all.
+        The result is wasted power, unpredictable bills, and thinner margins.
+      </p>
+      <p>
+        Energija sources intelligent lighting hardware from premium European
+        manufacturers, then designs, installs, and maintains it across commercial
+        and industrial sites in Nigeria. We know the local grid, price flexibly,
+        and support every install nationwide.
+      </p>
     </div>
   </div>
 </section>
 
-<!-- ==================== SERVICES ==================== -->
-<section class="section-pad cream" id="services">
+<!-- SERVICES -->
+<section class="section-pad tint" id="services">
   <div class="wrap">
-    <div class="sec-head reveal">
-      <div class="sec-head__title">
-        <span class="bracket">Services</span>
-        <h2 style="margin-top:18px">Smart, scalable lighting solutions.</h2>
-      </div>
-      <div class="sec-head__meta">
-        <div class="sec-head__rule"></div>
-        <p class="lead" style="font-size:1rem">
-          Three integrated practices — controls, fixtures, and lifecycle support —
-          delivered as one supply chain.
-        </p>
-      </div>
-    </div>
+    <h2 class="sec-title reveal">What we install</h2>
 
     <div class="services__grid">
       <article class="service reveal">
-        <div class="service__media">
-          <span class="service__num">SERVICE 01</span>
-          <img src="assets/img/smart_controls.jpg" alt="Smart lighting control panel and motion sensor in a commercial corridor" loading="lazy">
-        </div>
-        <div class="service__body">
-          <h3 class="service__title">Smart Lighting Control</h3>
-          <p class="service__desc">
-            Intelligent automation with motion sensors, daylight integration, and
-            programmable scheduling — calibrated to your building's occupancy patterns.
-          </p>
-          <span class="service__metric">
-            <span class="ico">↓</span> Up to 40% energy reduction
-          </span>
-        </div>
+        <img src="assets/img/smart_controls.jpg" alt="Smart lighting control panel and motion sensor in a commercial corridor" loading="lazy">
+        <h3>Smart lighting control</h3>
+        <p>Motion sensors, daylight integration, and scheduling, calibrated to how your building is actually used.</p>
+        <p class="service__metric">Up to 40% less energy</p>
       </article>
 
-      <article class="service reveal" style="--d:140ms">
-        <div class="service__media">
-          <span class="service__num">SERVICE 02</span>
-          <img src="assets/img/union_bank_2.jpg" alt="Transformative LED lighting installed at a client commercial site" loading="lazy">
-        </div>
-        <div class="service__body">
-          <h3 class="service__title">LED Retrofit Solutions</h3>
-          <p class="service__desc">
-            High-efficiency fixtures from European OEMs — superior brightness, longer
-            lifespan, and up to 75% lower energy consumption than legacy systems.
-          </p>
-          <span class="service__metric">
-            <span class="ico">→</span> Immediate cost savings
-          </span>
-        </div>
+      <article class="service reveal" style="--d:60ms">
+        <img src="assets/img/union_bank_2.jpg" alt="LED lighting installed at a client banking site" loading="lazy">
+        <h3>LED retrofits</h3>
+        <p>High-efficiency fixtures from European manufacturers. Brighter, longer-lasting, and far cheaper to run than legacy lighting.</p>
+        <p class="service__metric">Up to 75% less energy</p>
       </article>
 
-      <article class="service reveal" style="--d:280ms">
-        <div class="service__media">
-          <span class="service__num">SERVICE 03</span>
-          <img src="assets/img/light_installation.jpg" alt="Energija engineer installing smart lighting fixtures" loading="lazy">
-        </div>
-        <div class="service__body">
-          <h3 class="service__title">Installation & Support</h3>
-          <p class="service__desc">
-            Professional installation, regular maintenance, and dedicated technical
-            support nationwide — backed by a 24/7 service-level agreement.
-          </p>
-          <span class="service__metric">
-            <span class="ico">✓</span> Long-term reliability
-          </span>
-        </div>
+      <article class="service reveal" style="--d:120ms">
+        <img src="assets/img/light_installation.jpg" alt="Energija engineer installing a lighting fixture" loading="lazy">
+        <h3>Installation and support</h3>
+        <p>Certified crews install with minimal disruption, then maintain the system under a 24/7 service agreement.</p>
+        <p class="service__metric">Nationwide coverage</p>
       </article>
     </div>
   </div>
 </section>
 
-<!-- ==================== PROCESS ==================== -->
-<section class="process" id="process">
+<!-- PROCESS -->
+<section class="process section-pad" id="process">
   <div class="wrap">
-    <div class="sec-head reveal">
-      <div class="sec-head__title">
-        <span class="bracket">How It Works</span>
-        <h2 style="margin-top:18px">From audit to live system in four moves.</h2>
-      </div>
-      <div class="sec-head__meta">
-        <div class="sec-head__rule"></div>
-        <span class="eyebrow" style="color:oklch(80% 0.010 30)">Engagement Sequence</span>
-      </div>
-    </div>
+    <h2 class="sec-title reveal">From audit to handover in four steps</h2>
 
-    <div class="steps">
-      <div class="step reveal">
-        <div class="step__num">01<small>—Audit</small></div>
-        <h4 class="step__title">Energy Audit</h4>
-        <p class="step__desc">We meter your existing lighting load, occupancy patterns, and tariff exposure on-site.</p>
-      </div>
-      <div class="step reveal" style="--d:120ms">
-        <div class="step__num">02<small>—Design</small></div>
-        <h4 class="step__title">System Design</h4>
-        <p class="step__desc">We engineer a fixture and controls package matched to your building, with projected ROI.</p>
-      </div>
-      <div class="step reveal" style="--d:240ms">
-        <div class="step__num">03<small>—Install</small></div>
-        <h4 class="step__title">Supply & Install</h4>
-        <p class="step__desc">European-sourced hardware, certified Energija crews, deployed with minimal operational disruption.</p>
-      </div>
-      <div class="step reveal" style="--d:360ms">
-        <div class="step__num">04<small>—Sustain</small></div>
-        <h4 class="step__title">Lifecycle Support</h4>
-        <p class="step__desc">24/7 nationwide monitoring, maintenance, and incremental optimisation as your needs evolve.</p>
-      </div>
-    </div>
+    <ol class="steps">
+      <li class="step reveal">
+        <span class="step__num">1</span>
+        <h3>Energy audit</h3>
+        <p>We meter your lighting load, occupancy patterns, and tariff exposure on site.</p>
+      </li>
+      <li class="step reveal" style="--d:40ms">
+        <span class="step__num">2</span>
+        <h3>System design</h3>
+        <p>We specify fixtures and controls for your building, with a projected payback you can check.</p>
+      </li>
+      <li class="step reveal" style="--d:80ms">
+        <span class="step__num">3</span>
+        <h3>Supply and install</h3>
+        <p>European-sourced hardware, installed by Energija crews around your operating hours.</p>
+      </li>
+      <li class="step reveal" style="--d:120ms">
+        <span class="step__num">4</span>
+        <h3>Lifecycle support</h3>
+        <p>Monitoring, maintenance, and tuning as your occupancy changes.</p>
+      </li>
+    </ol>
   </div>
 </section>
 
-<!-- ==================== WHY ENERGIJA ==================== -->
+<!-- WHY -->
 <section class="section-pad" id="why">
   <div class="wrap">
-    <div class="sec-head reveal">
-      <div class="sec-head__title">
-        <span class="bracket">Why Energija</span>
-        <h2 style="margin-top:18px">Built for Nigeria's actual grid, not a brochure.</h2>
-      </div>
-      <div class="sec-head__meta">
-        <div class="sec-head__rule"></div>
-        <p class="lead" style="font-size:1rem">
-          Stop paying for energy you don't even use. Most commercial spaces still
-          rely on manual lighting control — wasted power, unpredictable bills,
-          declining profitability.
-        </p>
-      </div>
-    </div>
+    <h2 class="sec-title reveal">Built for Nigeria’s grid, not a brochure</h2>
 
     <div class="why__grid">
-      <div class="why__card large reveal">
-        <span class="num">Local Engineering</span>
-        <h4>Engineers who understand a tripped feeder, a generator handover, and a 3-phase imbalance — because they live with them.</h4>
-        <p>Every site we deploy is conditioned by Nigeria's grid behaviour. We design for the load you have, not the load a vendor brochure assumes.</p>
-      </div>
-      <div class="why__card tall reveal" style="--d:120ms">
-        <span class="num">Global Supply Chain</span>
-        <h4>Direct relationships with eight premium world class OEMs.</h4>
-        <p>Authentic stock, full warranties, and parts continuity — not the grey-market roulette that wastes years of capital expenditure.</p>
-      </div>
-      <div class="why__card stat reveal" style="--d:240ms">
-        <span class="num">Measured outcome</span>
-        <h4 style="color:var(--paper)">Average client energy reduction</h4>
-        <span class="big">40<small style="font-size:0.5em">%</small></span>
-      </div>
-      <div class="why__card wide reveal" style="--d:360ms">
-        <span class="num">Flexible commercials</span>
-        <h4>Capex, financed, or performance-share — pick the model that fits.</h4>
-        <p>From motion-sensor controls to complete LED retrofits, our pricing models adapt to your treasury, not the other way around.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== QUOTE / MISSION ==================== -->
-<section class="quote">
-  <div class="wrap">
-    <p class="quote__body reveal">
-      <em>“Energy waste is silent.</em> Our work is to make it visible — then make it stop.”
-    </p>
-    <div class="quote__byline reveal" style="--d:160ms">
-      <span><strong>Energija Integrated Systems</strong></span>
-      <span>· Founding Mission · Lagos, 2018</span>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== CLIENTS ==================== -->
-<section class="clients" id="clients">
-  <div class="wrap clients__head reveal">
-    <span class="eyebrow eyebrow--mute">Trusted by leading organisations</span>
-    <h3>We've helped businesses across Nigeria achieve measurable energy savings.</h3>
-  </div>
-  <div class="logorow" aria-label="Selected clients">
-    <div class="logorow__track">
-      <div><img src="assets/img/clients/TPH.jpg" alt="This Present House"></div>
-      <div><img src="assets/img/clients/Dawson.jpg" alt="Dawson Nigeria Limited"></div>
-      <div><img src="assets/img/clients/DBH.jpg" alt="DBH Consulting"></div>
-      <div><img src="assets/img/clients/etco.jpg" alt="ETCO Electricals"></div>
-      <div><img src="assets/img/clients/JT_Electricals.jpg" alt="JT Electricals"></div>
-      <div><img src="assets/img/clients/leadway.jpg" alt="Leadway Assurance"></div>
-      <!-- duplicated for seamless loop -->
-      <div><img src="assets/img/clients/TPH.jpg" alt=""></div>
-      <div><img src="assets/img/clients/Dawson.jpg" alt=""></div>
-      <div><img src="assets/img/clients/DBH.jpg" alt=""></div>
-      <div><img src="assets/img/clients/etco.jpg" alt=""></div>
-      <div><img src="assets/img/clients/JT_Electricals.jpg" alt=""></div>
-      <div><img src="assets/img/clients/leadway.jpg" alt=""></div>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== PARTNERS / SUPPLY CHAIN ==================== -->
-<section class="partners section-pad" id="partners">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <div class="sec-head__title">
-        <span class="bracket">Supply Chain</span>
-        <h2 style="margin-top:18px">A premium supply chain — direct from manufacturer.</h2>
-      </div>
-      <div class="sec-head__meta">
-        <div class="sec-head__rule"></div>
-        <p class="lead" style="font-size:1rem">
-          Eight industry-leading manufacturers. Authentic stock. Full warranty
-          continuity. No grey market.
+      <div class="why__lead reveal">
+        <p>
+          Our engineers understand a tripped feeder, a generator handover, and a
+          3-phase imbalance, because they work with them every day. We design for
+          the load you have, not the load a vendor brochure assumes.
         </p>
       </div>
-    </div>
-
-    <div class="partners__grid reveal">
-      <div class="partner" data-name="CP Electronics"><img src="assets/img/partners/cp-electronics.png" alt="CP Electronics"></div>
-      <div class="partner" data-name="Legrand"><img src="assets/img/partners/legrand.png" alt="Legrand"></div>
-      <div class="partner" data-name="British General"><img src="assets/img/partners/british-general.png" alt="British General"></div>
-      <div class="partner" data-name="Interra"><img src="assets/img/partners/interra.png" alt="Interra"></div>
-      <div class="partner" data-name="Astro Lighting"><img src="assets/img/partners/astro.png" alt="Astro Lighting"></div>
-      <div class="partner" data-name="Masterplug"><img src="assets/img/partners/masterplug.png" alt="Masterplug"></div>
-      <div class="partner" data-name="Luceco"><img src="assets/img/partners/luceco_logo.png" alt="Luceco"></div>
-      <div class="partner" data-name="Kingfisher Lighting"><img src="assets/img/partners/kingfisher.png" alt="Kingfisher Lighting"></div>
+      <div class="why__item reveal" style="--d:60ms">
+        <h3>Direct from the manufacturer</h3>
+        <p>Authentic stock, full warranties, and parts continuity from eight European OEMs. No grey market.</p>
+      </div>
+      <div class="why__item reveal" style="--d:120ms">
+        <h3>Pay the way that suits you</h3>
+        <p>Buy outright, finance it, or share the savings. The commercial model fits your budget, not ours.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ==================== GALLERY ==================== -->
-<section class="section-pad" id="gallery">
+<!-- MISSION -->
+<section class="quote">
   <div class="wrap">
-    <div class="sec-head reveal">
-      <div class="sec-head__title">
-        <span class="bracket">In the Field</span>
-        <h2 style="margin-top:18px">Live deployments, measured results.</h2>
-      </div>
-      <div class="sec-head__meta">
-        <div class="sec-head__rule"></div>
-        <span class="eyebrow eyebrow--mute">Selected sites · 2023–2025</span>
-      </div>
-    </div>
-    <div class="gallery__grid reveal">
-      <div class="gallery__item gallery__item--a">
-        <img src="assets/img/Lagos_skyline.jpg" alt="Lagos skyline at night, illuminated commercial buildings">
-        <span class="cap">Lagos · Commercial District</span>
-      </div>
-      <div class="gallery__item gallery__item--b">
-        <img src="assets/img/union_bank_2.jpg" alt="Transformative interior lighting at a client banking site">
-        <span class="cap">Banking · Pilot Site</span>
-      </div>
-      <div class="gallery__item gallery__item--c">
-        <img src="assets/img/smart_controls.jpg" alt="Smart lighting control hardware">
-        <span class="cap">Controls · Field Hardware</span>
-      </div>
-      <div class="gallery__item gallery__item--d">
-        <img src="assets/img/light_installation.jpg" alt="Engineer installing fixture on a ceiling">
-        <span class="cap">Install · FM Crew</span>
-      </div>
-    </div>
+    <blockquote class="reveal">
+      <p>“Energy waste is silent. Our work is to make it visible, then make it stop.”</p>
+      <footer>Energija Integrated Systems, founded in Lagos in 2018</footer>
+    </blockquote>
   </div>
 </section>
 
-<!-- ==================== FAQ ==================== -->
-<section class="section-pad bone" id="faq">
-  <div class="wrap wrap--narrow">
-    <div class="sec-head reveal" style="grid-template-columns:1fr">
-      <div class="sec-head__title">
-        <span class="bracket">FAQ</span>
-        <h2 style="margin-top:18px">Frequently asked.</h2>
-      </div>
+<!-- CLIENTS -->
+<section class="clients" id="clients">
+  <div class="wrap">
+    <h2 class="clients__title reveal">Trusted by organisations across Nigeria</h2>
+    <ul class="logos reveal" style="--d:60ms">
+      <li><img src="assets/img/clients/TPH.jpg" alt="This Present House" loading="lazy"></li>
+      <li><img src="assets/img/clients/Dawson.jpg" alt="Dawson Nigeria Limited" loading="lazy"></li>
+      <li><img src="assets/img/clients/DBH.jpg" alt="DBH Consulting" loading="lazy"></li>
+      <li><img src="assets/img/clients/etco.jpg" alt="ETCO Electricals" loading="lazy"></li>
+      <li><img src="assets/img/clients/JT_Electricals.jpg" alt="JT Electricals" loading="lazy"></li>
+      <li><img src="assets/img/clients/leadway.jpg" alt="Leadway Assurance" loading="lazy"></li>
+    </ul>
+  </div>
+</section>
+
+<!-- PARTNERS -->
+<section class="section-pad tint" id="partners">
+  <div class="wrap">
+    <div class="partners__head reveal">
+      <h2>Sourced direct from eight manufacturers</h2>
+      <p class="lead">Authentic stock with full manufacturer warranties.</p>
     </div>
+    <ul class="logos logos--partners reveal" style="--d:60ms">
+      <li><img src="assets/img/partners/cp-electronics.png" alt="CP Electronics" loading="lazy"></li>
+      <li><img src="assets/img/partners/legrand.png" alt="Legrand" loading="lazy"></li>
+      <li><img src="assets/img/partners/british-general.png" alt="British General" loading="lazy"></li>
+      <li><img src="assets/img/partners/interra.png" alt="Interra" loading="lazy"></li>
+      <li><img src="assets/img/partners/astro.png" alt="Astro Lighting" loading="lazy"></li>
+      <li><img src="assets/img/partners/masterplug.png" alt="Masterplug" loading="lazy"></li>
+      <li><img src="assets/img/partners/luceco_logo.png" alt="Luceco" loading="lazy"></li>
+      <li><img src="assets/img/partners/kingfisher.png" alt="Kingfisher Lighting" loading="lazy"></li>
+    </ul>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section-pad" id="faq">
+  <div class="wrap wrap--narrow">
+    <h2 class="sec-title reveal">Questions</h2>
 
     <div class="faq__list reveal">
       <div class="faq__item is-open">
         <button class="faq__btn" aria-expanded="true">
-          <span class="num">01</span>
-          <span>How quickly can I expect a return on a lighting upgrade?</span>
+          How quickly does a lighting upgrade pay for itself?
           <span class="ico" aria-hidden="true"></span>
         </button>
         <div class="faq__panel"><div>
-          <p>For most commercial sites we engage with, projected payback falls between
-            12 and 18 months — driven by reduced consumption, lower demand charges, and
-            extended fixture lifecycles. Every quote we issue includes the underlying
-            calculation so you can verify it independently.</p>
+          <p>For most commercial sites, payback falls between 12 and 18 months, driven by
+            lower consumption, lower demand charges, and longer fixture life. Every quote
+            includes the calculation so you can check it yourself.</p>
         </div></div>
       </div>
 
       <div class="faq__item">
         <button class="faq__btn" aria-expanded="false">
-          <span class="num">02</span>
-          <span>Do you only work with new builds, or can you retrofit existing buildings?</span>
+          Can you retrofit an existing building?
           <span class="ico" aria-hidden="true"></span>
         </button>
         <div class="faq__panel"><div>
-          <p>Both. The majority of our portfolio is retrofit work in operational sites —
-            offices, banks, hospitality, and warehousing — where we sequence the install
-            to avoid disrupting trading hours.</p>
+          <p>Yes. Most of our work is retrofits in operating sites: offices, banks,
+            hotels, and warehouses. We schedule installs around your trading hours.</p>
         </div></div>
       </div>
 
       <div class="faq__item">
         <button class="faq__btn" aria-expanded="false">
-          <span class="num">03</span>
-          <span>Where is your hardware sourced from?</span>
+          Where does your hardware come from?
           <span class="ico" aria-hidden="true"></span>
         </button>
         <div class="faq__panel"><div>
-          <p>Direct from eight European OEMs including CP Electronics, Legrand, British
-            General, Interra, Astro Lighting, Masterplug, Luceco, and Kingfisher
-            Lighting. Authentic stock and full manufacturer warranties — never grey
-            market.</p>
+          <p>Direct from eight European manufacturers: CP Electronics, Legrand, British
+            General, Interra, Astro Lighting, Masterplug, Luceco, and Kingfisher Lighting.
+            Authentic stock with full manufacturer warranties.</p>
         </div></div>
       </div>
 
       <div class="faq__item">
         <button class="faq__btn" aria-expanded="false">
-          <span class="num">04</span>
-          <span>What does ongoing support look like?</span>
+          What does ongoing support look like?
           <span class="ico" aria-hidden="true"></span>
         </button>
         <div class="faq__panel"><div>
-          <p>Every install is wrapped in a 24/7 nationwide service agreement. We monitor
-            the system, respond to incidents, replace parts under warranty, and revisit
-            optimisation as your occupancy patterns evolve.</p>
+          <p>Every install comes with a 24/7 nationwide service agreement. We monitor the
+            system, respond to incidents, replace parts under warranty, and re-tune it as
+            your occupancy changes.</p>
         </div></div>
       </div>
 
       <div class="faq__item">
         <button class="faq__btn" aria-expanded="false">
-          <span class="num">05</span>
-          <span>Do you offer financing or performance-share commercial models?</span>
+          Do you offer financing?
           <span class="ico" aria-hidden="true"></span>
         </button>
         <div class="faq__panel"><div>
-          <p>Yes — alongside conventional capex purchase, we structure financed and
-            performance-share arrangements where appropriate. The right model is the one
-            that fits your treasury position and the risk profile of the site.</p>
+          <p>Yes. Alongside outright purchase, we arrange financed and savings-share
+            agreements where they suit the site and your cash position.</p>
         </div></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ==================== FINAL CTA ==================== -->
+<!-- CONTACT -->
 <section class="cta" id="cta">
-  <div class="wrap cta__inner">
+  <div class="wrap cta__grid">
 
-    <header class="cta__header reveal">
-      <span class="cta__eyebrow">[ Begin a conversation ]</span>
-      <h2 class="cta__title">
-        Ready to <span class="accent">cut</span> energy costs?
-      </h2>
-      <p class="cta__lede">
-        Tell us about your lighting setup. Our team will assess it and
-        recommend the most cost-effective path to lower bills — usually
-        within one business day.
+    <div class="cta__intro reveal">
+      <h2>Get a quote for your building</h2>
+      <p class="lead">
+        Tell us about the site. We’ll reply within one business day with a
+        recommendation and a projected payback.
       </p>
-    </header>
 
-    <div class="cta__body">
-      <aside class="cta__channels reveal" style="--d:160ms" aria-label="Other ways to reach us">
-        <ol class="cta-ch__list">
-          <li class="cta-ch">
-            <span class="cta-ch__index">Visit</span>
-            <p class="cta-ch__value">
-              14b, Wole Ariyo,<br>
-              Off Admiralty Way<br>
-              Lekki Phase-1 · Lagos, NG
-            </p>
-          </li>
-          <li class="cta-ch">
-            <span class="cta-ch__index">Call</span>
-            <p class="cta-ch__value">
-              <a href="tel:+2348034294817">+234 803 429 4817</a><br>
-              <a href="tel:+2348066688438">+234 806 668 8438</a>
-            </p>
-          </li>
-          <li class="cta-ch">
-            <span class="cta-ch__index">Email</span>
-            <p class="cta-ch__value">
-              <a href="mailto:info@energija.com.ng">info@energija.com.ng</a>
-            </p>
-          </li>
-          <li class="cta-ch">
-            <span class="cta-ch__index">Online</span>
-            <p class="cta-ch__value">
-              <a href="https://www.energija.com.ng">energija.com.ng</a>
-            </p>
-          </li>
-        </ol>
-      </aside>
-      <form
-        class="cta-form reveal"
-        id="quote-form"
-        style="--d:240ms"
-        novalidate
-        aria-label="Request a quote"
-      >
-        <h3 class="cta-form__title">Send a brief</h3>
+      <dl class="cta__channels">
+        <div>
+          <dt>Call</dt>
+          <dd>
+            <a href="tel:+2348034294817">+234 803 429 4817</a><br>
+            <a href="tel:+2348066688438">+234 806 668 8438</a>
+          </dd>
+        </div>
+        <div>
+          <dt>Email</dt>
+          <dd><a href="mailto:info@energija.com.ng">info@energija.com.ng</a></dd>
+        </div>
+        <div>
+          <dt>Visit</dt>
+          <dd>14b Wole Ariyo, off Admiralty Way<br>Lekki Phase 1, Lagos</dd>
+        </div>
+      </dl>
+    </div>
 
+    <div class="cta-panel reveal" style="--d:60ms">
+      <form class="cta-form" id="quote-form" novalidate aria-label="Request a quote">
         <div class="cta-form__grid">
-          <label class="cta-form__field">
-            <span class="cta-form__label">Name <span aria-hidden="true">*</span></span>
+          <label class="field">
+            <span class="field__label">Name</span>
             <input type="text" name="name" required autocomplete="name">
+            <span class="field__error">Add your name</span>
           </label>
 
-          <label class="cta-form__field">
-            <span class="cta-form__label">Email <span aria-hidden="true">*</span></span>
+          <label class="field">
+            <span class="field__label">Email</span>
             <input type="email" name="email" required autocomplete="email" inputmode="email">
+            <span class="field__error">Enter a valid email</span>
           </label>
 
-          <label class="cta-form__field">
-            <span class="cta-form__label">Phone</span>
+          <label class="field">
+            <span class="field__label">Phone <span class="opt">optional</span></span>
             <input type="tel" name="phone" autocomplete="tel" inputmode="tel">
           </label>
 
-          <label class="cta-form__field">
-            <span class="cta-form__label">Company</span>
+          <label class="field">
+            <span class="field__label">Company <span class="opt">optional</span></span>
             <input type="text" name="company" autocomplete="organization">
           </label>
 
-          <label class="cta-form__field cta-form__field--full">
-            <span class="cta-form__label">I want to find out about</span>
+          <label class="field field--full">
+            <span class="field__label">Interested in <span class="opt">optional</span></span>
             <select name="service">
-              <option value="">Select a service…</option>
+              <option value="">Not sure yet</option>
               <option>Energy Saving Control Solutions</option>
               <option>LED Lighting Solutions</option>
               <option>Decorative Lighting Solutions</option>
@@ -649,38 +375,46 @@
             </select>
           </label>
 
-          <label class="cta-form__field cta-form__field--full">
-            <span class="cta-form__label">Message <span aria-hidden="true">*</span></span>
-            <textarea name="message" rows="4" required></textarea>
+          <label class="field field--full">
+            <span class="field__label">About the site</span>
+            <textarea name="message" rows="4" required placeholder="Building type, size, and what you’d like to fix"></textarea>
+            <span class="field__error">Tell us a little about the site</span>
           </label>
         </div>
 
         <div class="cta-form__row">
-          <button type="submit" class="btn btn--red cta-form__submit" data-magnetic>
+          <button type="submit" class="btn btn--red cta-form__submit">
             <span class="cta-form__submit-label">Send request</span>
-            <span class="arrow" aria-hidden="true">↗</span>
           </button>
           <p class="cta-form__status" role="status" aria-live="polite"></p>
         </div>
       </form>
-    </div><!-- /.cta__body -->
+
+      <div class="cta-done" id="quote-done" hidden tabindex="-1">
+        <svg class="cta-done__mark" viewBox="0 0 48 48" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" />
+          <path d="M14 24.5l7 7 13-14" />
+        </svg>
+        <h3>Request received</h3>
+        <p>We’ll reply to <strong id="quote-done-email">you</strong> within one business day.</p>
+      </div>
+    </div>
 
   </div>
 </section>
 
 </main>
 
-<!-- ==================== FOOTER ==================== -->
 <footer class="footer">
   <div class="wrap">
     <div class="footer__top">
       <div class="footer__brand">
         <a href="#top" class="brand">
-          <img src="assets/img/energija_logo_white.png" alt="" width="38" height="40">
-          <span>ENERGIJA</span>
+          <img src="assets/img/energija_logo_white.png" alt="" width="30" height="32">
+          <span>Energija</span>
         </a>
-        <p>Powering Nigeria's businesses with intelligent energy solutions that reduce costs and drive sustainability.</p>
-        <ul class="footer__social" aria-label="Follow Energija on social media">
+        <p>Energy-saving lighting for Nigerian businesses.</p>
+        <ul class="footer__social" aria-label="Energija on social media">
           <li>
             <a href="https://www.facebook.com/energijaIS" target="_blank" rel="noopener" aria-label="Facebook">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
@@ -715,43 +449,38 @@
           </li>
         </ul>
       </div>
-      <div class="footer__col">
-        <h6>Services</h6>
+      <nav class="footer__col" aria-label="Services">
+        <h2>Services</h2>
         <ul>
-          <li><a href="#services">Smart lighting</a></li>
-          <li><a href="#services">LED solutions</a></li>
-          <li><a href="#services">Installation</a></li>
-          <li><a href="#services">Support</a></li>
+          <li><a href="#services">Smart lighting control</a></li>
+          <li><a href="#services">LED retrofits</a></li>
+          <li><a href="#services">Installation and support</a></li>
         </ul>
-      </div>
-      <div class="footer__col">
-        <h6>Company</h6>
+      </nav>
+      <nav class="footer__col" aria-label="Company">
+        <h2>Company</h2>
         <ul>
           <li><a href="#about">About</a></li>
+          <li><a href="#partners">Supply chain</a></li>
+          <li><a href="#faq">FAQ</a></li>
           <li><a href="#cta">Contact</a></li>
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Terms</a></li>
         </ul>
-      </div>
+      </nav>
       <div class="footer__col">
-        <h6>Contact</h6>
+        <h2>Contact</h2>
         <ul>
-          <li>Nigeria<br>Nationwide service</li>
           <li><a href="mailto:info@energija.com.ng">info@energija.com.ng</a></li>
+          <li><a href="tel:+2348034294817">+234 803 429 4817</a></li>
         </ul>
       </div>
     </div>
     <div class="footer__bottom">
       <span>© 2026 Energija Integrated Systems</span>
-      <span class="footer__credit">
-        Built by
-        <a href="https://orbanforest.ca/" target="_blank" rel="noopener">Orban Forest Inc.</a>
-      </span>
-      <span><span class="marker">●</span> Live · All rights reserved</span>
+      <span>Built by <a href="https://orbanforest.ca/" target="_blank" rel="noopener">Orban Forest Inc.</a></span>
     </div>
   </div>
 </footer>
 
-<script src="assets/js/main.js"></script>
+<script src="assets/js/main.js?v=5"></script>
 </body>
 </html>
